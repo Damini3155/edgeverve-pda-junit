@@ -1,0 +1,62 @@
+# ===========================
+# Build Output
+# ===========================
+*.class
+target/
+**/target/
+build/
+**/build/
+
+# ===========================
+# Gradle Cache & Wrapper
+# ===========================
+.gradle/
+**/.gradle/
+gradle/
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.properties
+
+# ===========================
+# IDE Files
+# ===========================
+.idea/
+**/.idea/
+*.iml
+*.iws
+*.ipr
+.eclipse/
+.classpath
+.project
+.settings/
+*.factorypath
+
+# ===========================
+# Archives & Zip Files
+# ===========================
+*.zip
+*.tar.gz
+*.rar
+_archive/
+
+# ===========================
+# OS Specific
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Logs & Temp Files
+# ===========================
+*.log
+*.tmp
+*.temp
+hs_err_pid*
+
+# ===========================
+# Test Reports (generated)
+# ===========================
+surefire-reports/
+**/surefire-reports/
+test-output/
+**/test-output/
